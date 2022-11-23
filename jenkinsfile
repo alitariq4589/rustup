@@ -11,7 +11,7 @@ node("x86_runner2"){
         sh'''#!/bin/bash
             export CARGO_HOME=/softwares/rust/cargo
             export RUSTUP_HOME=/softwares/rust/rustup
-            sh rustup-init.sh
+            sh rustup-init.sh -y
         '''
     }
 }
